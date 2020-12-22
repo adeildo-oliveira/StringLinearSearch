@@ -3,12 +3,12 @@
 >## Objetivo
 Para efetuar buscas em uma string, usamos diferentes estratégias, uma delas é um velho conhecido, `Regex`. Mas ao usa-lo em um cenário de alta performance, percebemos um maior uso de memória e maior tempo de resposta.
 
-Uma solução para este cenário é usarmos um algoritmos que dispese menos alocação e com isso, maior tempo de resposta.
+Uma solução para este cenário é usarmos um algoritmos que contenha menos alocação, com isso, ganhamos tempo de resposta na busca.
 
 >## Sample Linear Search
 Buscando uma maneira de como resolver isso, podemos usar o `stringbuilder` aliado a um loop de repetição.
 
-Neste cenário, temos uma operação de ordem linear, ou seja, uma complexidade O(n).
+Neste cenário, teremos uma busca linear, ou seja, uma complexidade O(n).
 
 >## Resultados
 
