@@ -1,9 +1,9 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ucxwgqb0ypj73tt9?svg=true)](https://ci.appveyor.com/project/adeildo-oliveira/StringLinearSearch)
 
 >## Objetivo
-Para efetuar buscas em uma string, usamos diferentes estratégias, uma delas é um velho conhecido, `Regex`. No entanto, ao usa-lo em um cenário de alta performance, percebemos maior uso de memória e maior tempo de reposta.
+Para efetuar buscas em uma string, usamos diferentes estratégias, uma delas é um velho conhecido, `Regex`. Mas ao usa-lo em um cenário de alta performance, percebemos um maior uso de memória e maior tempo de resposta.
 
-Uma solução para este cenário é usarmos um algoritmos que dispese menor alocação e com isso maior tempo de resposta.
+Uma solução para este cenário é usarmos um algoritmos que dispese menos alocação e com isso, maior tempo de resposta.
 
 >## Sample Linear Search
 Buscando uma maneira de como resolver isso, podemos usar o `stringbuilder` aliado a um loop de repetição.
